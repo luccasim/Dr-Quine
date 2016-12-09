@@ -9,7 +9,7 @@ $(NAME):
 	$(IMPORT) $(CC) $(SRC)
 
 clean:
-	/bin/rm -rf Grace_kid.c
+	/bin/rm -rf Grace_kid.swift
 
 fclean: clean
 	/bin/rm -rf $(NAME)
