@@ -14,7 +14,7 @@ $(OBJ):
 	$(IMPORT) $(CC) -c $(SRC) -o $(OBJ)
 
 clean:
-	/bin/rm -rf $(DEL)
+	/bin/rm -rf $(DEL) $(OBJ)
 
 fclean: clean
 	/bin/rm -rf $(NAME)
